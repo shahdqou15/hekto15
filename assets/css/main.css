@@ -1,52 +1,87 @@
-body{
-    font-family: var(--mainfont);
-  }
+body {
+  font-family: var(--mainfont);
+}
 
-.header{
-  
+.header {
+
   padding: 57px 0;
 
 }
-.header ul{
+
+.header ul {
   display: flex;
   flex-wrap: wrap;
-  gap:35px;
+  gap: 35px;
 }
-.header .bars{
+
+.header .bars {
   display: none;
 }
-.list a{
-  color:#0D0E43;
+
+.list a {
+  color: #0D0E43;
 }
-.list .active{
+
+.list .active {
   color: var(--maincolor);
 
 }
-.search form{
+
+.search form {
   border: 2px solid #E7E6EF;
   border-radius: 5px;
-  
+
 }
-.search input{
+
+.search input {
   border: none;
   outline: none;
   width: 250px;
   padding-left: 9px;
 
 }
-.search button{
+
+.search button {
   border: none;
   outline: none;
   background-color: var(--maincolor);
   padding: 8px 13px;
-  
+
 }
 
 @media screen and (max-width:1200px) {
-.list , .search{
-  display: none;
+
+  .list,
+  .search {
+    display: none;
+  }
+
+  .header .bars {
+    display: block;
+  }
 }
-.header .bars{
-  display: block;
+
+.footer {
+  background-color: #EEEFFB;
+  padding: 40px 0;
 }
+
+.footer .left-side {
+  width: 40%;
+  gap: 30px 0;
+  align-items: flex-start;
+}
+.left-side .contact{
+  color: #8A8FB9;
+}
+
+form .signup{
+  color: #EEEFFB;
+}
+.footer .right-side {
+  width: 60%;
+  padding: 0 15px;
+}
+nav a{
+  color: #8A8FB9;
 }
