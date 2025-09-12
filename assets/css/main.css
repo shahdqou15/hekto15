@@ -65,7 +65,31 @@ body {
 }
 
 /*end header*/
+/*start clients*/
+.clients{
+  padding: 50px 0;
 
+}
+.clients .row{
+  flex-wrap: nowrap;
+  gap: 15px;
+  overflow: auto;
+}
+.clients .logo{
+  width: calc((100% - 60px) / 5);
+}
+.clients img{
+ width: 200px;
+ height: 150px;
+}
+@media screen and (max-width:600px) {
+
+  .clients .logo{
+    width: calc((100% - 15px) / 2);
+  }
+}
+
+/*end clients*/
 /* stert footer*/
 .footer {
   background-color: #EEEFFB;
