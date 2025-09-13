@@ -85,4 +85,12 @@ display: flex;
 .g-6{
     gap:30px
 }
-
+.t-center{
+    text-align: center;
+}
+.t-right{
+    text-align: right;
+}
+.t-left{
+    text-align: left;
+}
