@@ -65,6 +65,26 @@ body {
 }
 
 /*end header*/
+
+/*start newslater*/
+.newslater{
+  background-image: url('../img/public/Rectangle\ 102.webp');
+  padding: 175px 0;
+  text-align: center;
+}
+.newslater h2{
+  margin-bottom: 30px;
+  color: #151875;
+  font-size: 35px;
+}
+.shop-btn{
+  transition: all 0.5s;
+}
+.shop-btn:hover{
+  background-color: #151875;
+}
+
+/*end newslater*/
 /*start clients*/
 .clients{
   padding: 50px 0;
@@ -80,7 +100,7 @@ body {
 }
 .clients img{
  width: 200px;
- height: 150px;
+ height: 120px;
 }
 @media screen and (max-width:600px) {
 
