@@ -70,6 +70,81 @@ body {
 
 
 
+/*start hero*/
+
+.hero {
+  background-color: #F2F0FF;
+  padding: 50px 0;
+
+}
+.hero .hero-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  flex:1 0 60%;
+}
+
+.hero .hero-lamp {
+position: relative;
+bottom: 60px;
+left: -81px;
+width: 25%;
+
+}
+
+
+
+.hero .text-content {
+  display: flex;
+  flex-wrap: wrap;
+ flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  padding-top: 80px;
+    
+}
+
+.hero-content .hero-para {
+  color: #8A8FB9;
+}
+
+.hero .hero-img{
+  flex:1 0 30%;
+}
+.hero .hero-img img{
+  width: 100%;
+}
+
+@media screen and (max-width:1300px) {
+  .hero .hero-lamp img {
+    display: none;
+  }
+}
+
+@media screen and (max-width:640px) {
+
+  .hero .hero-content,
+  .hero .hero-img {
+    width: 100%;
+  }
+
+
+  .hero .hero-img {
+    display: none;
+  }
+
+}
+
+
+
+
+
+
+
+/*end hero*/
+
+
 /*start products*/
 .featured-products {
   padding: 50px 0;
@@ -267,7 +342,7 @@ svg:active {
   height: 120px;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:1120px) {
 
   .clients .logo {
     width: calc((100% - 15px) / 2);

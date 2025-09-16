@@ -94,3 +94,6 @@ display: flex;
 .t-left{
     text-align: left;
 }
+.primary-color{
+    color: var(--maincolor);
+}
