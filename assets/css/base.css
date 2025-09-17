@@ -97,3 +97,6 @@ display: flex;
 .primary-color{
     color: var(--maincolor);
 }
+.w-100{
+    width: 100%;
+}
