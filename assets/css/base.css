@@ -73,6 +73,9 @@ display: flex;
 .flex-row{
     flex-direction: row;
 }
+.g-1{
+    gap: 5px ;
+}
 .g-2{
     gap:10px;
 }
@@ -102,4 +105,10 @@ display: flex;
 }
 .align-center{
     align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.font-s{
+    font-size: small;
 }
