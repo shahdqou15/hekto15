@@ -414,13 +414,14 @@ svg:active {
 @media screen and (max-width:680px) {
   .leatest-products .leatest-product {
     width: 100%;
-    
+
   }
 }
+
 @media screen and (max-width:346px) {
   .leatest-products .leatest-product {
     margin: 20px;
-    
+
   }
 }
 
@@ -550,21 +551,23 @@ svg:active {
 
 .top .top-img {
   width: 269px;
-height: 269px;
-border-radius: 50%;
-background-color: #F6F7FB;
-box-shadow: 0 8px 40px 0 #31208A0D;
+  height: 269px;
+  border-radius: 50%;
+  background-color: #F6F7FB;
+  box-shadow: 0 8px 40px 0 #31208A0D;
+  transition: all 0.5s;
 
 }
 
 .top .top-img img {
   width: 178px;
   height: 178px;
-position: absolute;
-top: 49px;
-left: 41px;
+  position: absolute;
+  top: 49px;
+  left: 41px;
 }
-.top .top-img .viewbtn{
+
+.top .top-img .viewbtn {
   color: #fff;
   background-color: #08D15F;
   width: 90px;
@@ -583,26 +586,29 @@ left: 41px;
   opacity: 0;
 }
 
-.top .top-info{
+.top .top-info {
   gap: 13px;
 }
-.top-info{
+
+.top-info {
   padding: 5px 0;
   font-size: 15px;
   color: #151875;
 }
 
-.top-img:hover .viewbtn{
+.top-img:hover .viewbtn {
   opacity: 1;
 }
-.top-img:hover{
+
+.top-img:hover {
   box-shadow: -4px 6px 0 0 #151875;
 }
+
 @media screen and (max-width:1190px) {
   .top-categories .top {
     margin: 20px;
   }
-  
+
 }
 
 /*end top-categories*/
@@ -662,6 +668,60 @@ left: 41px;
 }
 
 /*end clients*/
+
+
+
+/* start Leatest Blog*/
+.leatest-blog {
+  padding: 50px 0;
+}
+
+.leatest-blog h2 {
+  padding-bottom: 55px;
+  font-size: 42px;
+  color: #151875;
+}
+
+.leatest-blog .blog {
+    justify-content: center;
+  align-items: center;
+  flex: 1 0 100px;
+  width: 370px;
+  height: 490px;
+  color: #151875;
+  box-shadow: 1px 1px 12px 0 #31208A0D;
+
+}
+
+.blog .blog-img img {
+  width: 370px;
+  height: 255px;
+  border-radius: 8px;
+}
+.blog .blog-details{
+  padding: 10px 0;
+}
+.blog h3{
+  transition: all 0.5s;
+}
+.blog p{
+  color: #72718F;
+}
+.blog a{
+  text-decoration: underline;
+  transition: all 0.5s;
+}
+
+.blog:hover h3 {
+color: var(--maincolor);
+}
+.blog:hover a {
+color: var(--maincolor);
+}
+
+
+
+/*end Leatest Blog*/
 
 
 
