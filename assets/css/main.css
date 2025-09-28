@@ -414,13 +414,21 @@ svg:active {
 @media screen and (max-width:680px) {
   .leatest-products .leatest-product {
     width: 100%;
-
+   
+  }
+  .product-information{
+    gap:100px;
+    
+  }
+  .product-information .span{
+    gap: 30px;
   }
 }
 
 @media screen and (max-width:346px) {
   .leatest-products .leatest-product {
-    margin: 20px;
+    margin: auto;
+    margin-top: 30px;
 
   }
 }
@@ -458,6 +466,11 @@ svg:active {
 .shop-para {
   color: #1A0B5B4D;
   width: 50%;
+}
+@media screen and (max-width:680px) {
+  .shopex-offer .shop{
+    margin: 15px 0;
+  }
 }
 
 /*end shop*/
@@ -525,6 +538,11 @@ svg:active {
   text-decoration: line-through;
 
 }
+@media screen and (max-width:1200px) {
+.trend-product .trend-img{
+  width: 100%;
+}
+}
 
 /*end trending*/
 
@@ -545,7 +563,6 @@ svg:active {
   flex: 1 0 200px;
   width: 269px;
   height: 300px;
-
   position: relative;
 }
 
@@ -607,9 +624,10 @@ svg:active {
 @media screen and (max-width:1190px) {
   .top-categories .top {
     margin: 20px;
-  }
+
 
 }
+
 
 /*end top-categories*/
 
@@ -699,7 +717,7 @@ svg:active {
   border-radius: 8px;
 }
 .blog .blog-details{
-  padding: 10px 0;
+  padding:0;
 }
 .blog h3{
   transition: all 0.5s;
@@ -718,7 +736,13 @@ color: var(--maincolor);
 .blog:hover a {
 color: var(--maincolor);
 }
+@media screen and (max-width:420px) {
 
+  .blog .blog-img img{
+     width: 290px;
+  height: 255px;
+  }
+}
 
 
 /*end Leatest Blog*/
@@ -774,6 +798,10 @@ nav a {
   .footer .left-side,
   .footer .right-side {
     width: 100%;
+    padding: 20px 0;
+  }
+   .footer-item {
+    padding: 30px 0;
   }
 }
 
@@ -781,7 +809,9 @@ nav a {
   .footer {
     text-align: center;
   }
-
+.footer .left-side{
+align-items: center;
+}
   .footer-item {
     width: 100%;
   }
